@@ -1,0 +1,207 @@
+Hello world response testing
+
+ab -n 1000000 -c 200 localhost:8080/test
+This is ApacheBench, Version 2.3 <$Revision: 1901567 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+
+Elixir/Cowboy
+
+Server Software:        Cowboy
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /test
+Document Length:        24 bytes
+
+Concurrency Level:      200
+Time taken for tests:   84.534 seconds
+Complete requests:      1000000
+Failed requests:        0
+Total transferred:      187000000 bytes
+HTML transferred:       24000000 bytes
+Requests per second:    11829.54 [#/sec] (mean)
+Time per request:       16.907 [ms] (mean)
+Time per request:       0.085 [ms] (mean, across all concurrent requests)
+Transfer rate:          2160.28 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    5   2.0      6      11
+Processing:     0   11   4.9     10      78
+Waiting:        0    9   5.2      8      77
+Total:          0   17   4.3     16      81
+
+Percentage of the requests served within a certain time (ms)
+  50%     16
+  66%     17
+  75%     18
+  80%     18
+  90%     20
+  95%     23
+  98%     31
+  99%     36
+ 100%     81 (longest request)
+
+Nodejs/Fastify
+
+Server Software:
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /test
+Document Length:        24 bytes
+
+Concurrency Level:      200
+Time taken for tests:   75.356 seconds
+Complete requests:      1000000
+Failed requests:        0
+Total transferred:      166000000 bytes
+HTML transferred:       24000000 bytes
+Requests per second:    13270.35 [#/sec] (mean)
+Time per request:       15.071 [ms] (mean)
+Time per request:       0.075 [ms] (mean, across all concurrent requests)
+Transfer rate:          2151.25 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    2   0.6      2       8
+Processing:     4   13   1.7     13      59
+Waiting:        1   10   1.6     10      49
+Total:          7   15   1.6     15      62
+
+Percentage of the requests served within a certain time (ms)
+  50%     15
+  66%     15
+  75%     15
+  80%     15
+  90%     16
+  95%     17
+  98%     21
+  99%     22
+ 100%     62 (longest request)
+
+
+Go/Fasthttp
+Server Software:        fasthttp
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /test
+Document Length:        25 bytes
+
+Concurrency Level:      200
+Time taken for tests:   54.650 seconds
+Complete requests:      1000000
+Failed requests:        0
+Total transferred:      170000000 bytes
+HTML transferred:       25000000 bytes
+Requests per second:    18298.28 [#/sec] (mean)
+Time per request:       10.930 [ms] (mean)
+Time per request:       0.055 [ms] (mean, across all concurrent requests)
+Transfer rate:          3037.80 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    5   1.2      5      10
+Processing:     0    6   1.2      6      25
+Waiting:        0    4   1.2      3      24
+Total:          0   11   0.6     11      28
+
+Percentage of the requests served within a certain time (ms)
+  50%     11
+  66%     11
+  75%     11
+  80%     11
+  90%     12
+  95%     12
+  98%     12
+  99%     13
+ 100%     28 (longest request)
+
+
+
+ Bun with siopao for routing
+
+Server Software:
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /test
+Document Length:        24 bytes
+
+Concurrency Level:      200
+Time taken for tests:   56.261 seconds
+Complete requests:      1000000
+Failed requests:        0
+Total transferred:      103000000 bytes
+HTML transferred:       24000000 bytes
+Requests per second:    17774.28 [#/sec] (mean)
+Time per request:       11.252 [ms] (mean)
+Time per request:       0.056 [ms] (mean, across all concurrent requests)
+Transfer rate:          1787.84 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    5   0.6      5      11
+Processing:     2    6   1.0      6      13
+Waiting:        0    5   1.0      4      11
+Total:          4   11   0.8     11      20
+WARNING: The median and mean for the waiting time are not within a normal deviation
+        These results are probably not that reliable.
+
+Percentage of the requests served within a certain time (ms)
+  50%     11
+  66%     12
+  75%     12
+  80%     12
+  90%     12
+  95%     13
+  98%     14
+  99%     14
+ 100%     20 (longest request)
+
+ Rust/actix
+
+Server Software:
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /test
+Document Length:        24 bytes
+
+Concurrency Level:      200
+Time taken for tests:   37.955 seconds
+Complete requests:      1000000
+Failed requests:        0
+Total transferred:      132000000 bytes
+HTML transferred:       24000000 bytes
+Requests per second:    26346.93 [#/sec] (mean)
+Time per request:       7.591 [ms] (mean)
+Time per request:       0.038 [ms] (mean, across all concurrent requests)
+Transfer rate:          3396.28 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    4   0.9      4       7
+Processing:     1    4   0.9      4       8
+Waiting:        0    2   0.9      2       7
+Total:          1    8   0.3      8      11
+
+Percentage of the requests served within a certain time (ms)
+  50%      8
+  66%      8
+  75%      8
+  80%      8
+  90%      8
+  95%      8
+  98%      9
+  99%      9
+ 100%     11 (longest request)
+
+ Rust/may-http
+
+
+
+

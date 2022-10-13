@@ -1,0 +1,13 @@
+[package]
+name = "http_server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[profile.dev]
+opt-level = 3               # Use slightly better optimizations.
+overflow-checks = false     # Disable integer overflow checks.
+[dependencies]
+serde_derive = "1.0.145"
+actix-web = "4"
+serde = {version ="1.0", features=["derive"]}
