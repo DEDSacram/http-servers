@@ -1,0 +1,13 @@
+/home/sacram/http servers/Rust/warp/target/debug/deps/url-1bb7660d621e267d.rmeta: /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/lib.rs /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/host.rs /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/origin.rs /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/parser.rs /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/path_segments.rs /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/slicing.rs /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/quirks.rs
+
+/home/sacram/http servers/Rust/warp/target/debug/deps/liburl-1bb7660d621e267d.rlib: /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/lib.rs /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/host.rs /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/origin.rs /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/parser.rs /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/path_segments.rs /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/slicing.rs /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/quirks.rs
+
+/home/sacram/http servers/Rust/warp/target/debug/deps/url-1bb7660d621e267d.d: /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/lib.rs /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/host.rs /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/origin.rs /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/parser.rs /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/path_segments.rs /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/slicing.rs /home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/quirks.rs
+
+/home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/lib.rs:
+/home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/host.rs:
+/home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/origin.rs:
+/home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/parser.rs:
+/home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/path_segments.rs:
+/home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/slicing.rs:
+/home/sacram/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/quirks.rs:

@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/sacram/http servers/Rust/warp/target/debug/build/typenum-53a596995771e27f/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/sacram/http servers/Rust/warp/target/debug/build/typenum-53a596995771e27f/out/op.rs

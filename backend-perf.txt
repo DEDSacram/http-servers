@@ -64,6 +64,17 @@ Req/Sec   125.83k     2.78k  129.14k    94.00%
 Requests/sec: 125085.96
 Transfer/sec:     15.75MB
 
+C#
+Thread Stats   Avg      Stdev     Max   +/- Stdev
+Latency    40.25ms    5.58ms  54.06ms   97.00%
+Req/Sec     4.97k   810.91     8.80k    76.00%
+49440 requests in 10.01s, 7.72MB read
+Requests/sec:   4940.39
+Transfer/sec:    790.20KB
+
+
+
+
 
 
 
