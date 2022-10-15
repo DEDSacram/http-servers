@@ -63,7 +63,14 @@ time 10 s thread 1 concurrent connections 200
  - 1251272 requests in 10.00s, 157.52MB read
  - Requests/sec: 125085.96
  - Transfer/sec:     15.75MB
-
+## C#/System.net
+- 1 threads and 200 connections
+- Thread Stats   Avg      Stdev     Max   +/- Stdev
+- Latency    40.27ms    5.35ms  53.29ms   97.17%
+- Req/Sec     4.97k   670.91     9.40k    88.00%
+- 49458 requests in 10.01s, 7.72MB read
+- Requests/sec:   4942.58
+- Transfer/sec:    790.50KB
 
 
 
